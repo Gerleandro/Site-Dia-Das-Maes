@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    
+}
+
+p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: end;
+    margin: 0 10px 0 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 600px;
+    height: 100%;
+    background-color: rgb(255, 70, 215);
+    padding: 1rem;
+    border-radius: 0 0 30px 30px; 
+
+}
+
+.title {
+    font-family: "Poetsen One", sans-serif;
+    font-size: 5em;
+    width: 300px;
+    height:auto;
+    padding: 10px;
+    padding-top: 50px;
+    border-radius: 0 0 30px 30px; 
+    text-align: center;
+    color: #fff;
+    line-height: 1.4em;
+    background-color: rgb(255, 32, 144);
+}
+
+.box1 {
+    height: 600px;
+    width:300px;
+    margin:5em 1em 1em 1em;
+}
+
+.heart {
+    width: 600px;
+}
+
+a {
+    position: absolute;
+    top: 900px;
+    border-radius: 10rem ;
+    background-color: pink;
+    font-family: "Poetsen One", sans-serif;
+    color:rgb(255, 32, 144);
+    font-size: 50px;
+    text-transform: capitalize;
+    border:none;
+    width: 200px;
+    height: 200px;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover {
+    transition: 1s;
+    transform: scale(1.9);
+}
