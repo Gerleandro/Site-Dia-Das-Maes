@@ -80,6 +80,7 @@ p {
 
     body {
         padding: 0;
+        overflow-x: hidden;
     }
     .container > .box1 > img {
         width: 200px
