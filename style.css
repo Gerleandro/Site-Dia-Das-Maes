@@ -8,6 +8,7 @@
 }
 
 body {
+    width: 100vw;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -16,6 +17,7 @@ body {
     background-color: rgb(253, 111, 135);
     padding: 5rem;
     overflow-x: hidden;
+    
 }
 
 p {
@@ -41,21 +43,13 @@ p {
 }
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
 .carta {
     display: flex;
     justify-content: center;
     align-items: center;
     width:100%;
     flex-direction: column;
-    margin: 2rem;
-    line-height: 3rem;
+    line-height: 2.5rem;
     border: 10px double pink;
     border-radius: 1rem;
 }
@@ -78,10 +72,19 @@ p {
 
 
 @media screen and (max-width: 720px) {
+
+    * {
+        margin: 5px;
+        padding:0;
+    }
+
+    body {
+        padding: 0;
+    }
     .container > .box1 > img {
         width: 200px
     }
     .carta {
-        width: 400px;
+        width: 100%px;
     }
 }
