@@ -13,7 +13,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100vw;
     background-color: rgb(253, 111, 135);
     padding: 5rem;
     overflow-x: hidden;
@@ -81,5 +80,8 @@ p {
 @media screen and (max-width: 720px) {
     .container > .box1 > img {
         width: 200px
+    }
+    .carta {
+        width: 400px;
     }
 }
