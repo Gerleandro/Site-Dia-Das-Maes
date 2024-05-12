@@ -8,78 +8,73 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-
-    
+    background-color: #ffffff;
 }
 
 p {
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 12px;
-    text-align: end;
-    margin: 0 10px 0 0;
+   color: #fff;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    width: 600px;
-    height: 100%;
-    background-color: rgb(255, 70, 215);
-    padding: 1rem;
-    border-radius: 0 0 30px 30px; 
-
+    background-color: rgb(253, 159, 175);
+    width: 100%;
+    border-radius: 1rem;
 }
 
 .title {
     font-family: "Poetsen One", sans-serif;
     font-size: 5em;
-    width: 300px;
-    height:auto;
-    padding: 10px;
-    padding-top: 50px;
-    border-radius: 0 0 30px 30px; 
-    text-align: center;
-    color: #fff;
-    line-height: 1.4em;
-    background-color: rgb(255, 32, 144);
+    color: white;
 }
 
 .box1 {
-    height: 600px;
-    width:300px;
-    margin:5em 1em 1em 1em;
+   display: flex;
+   align-items: center;
+   padding: 1em;
 }
 
-.heart {
-    width: 600px;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-a {
-    position: absolute;
-    top: 900px;
-    border-radius: 10rem ;
-    background-color: pink;
-    font-family: "Poetsen One", sans-serif;
-    color:rgb(255, 32, 144);
-    font-size: 50px;
-    text-transform: capitalize;
-    border:none;
-    width: 200px;
-    height: 200px;
-    text-decoration: none;
+body {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    background-color: rgb(253, 111, 135);
+    padding: 5rem;
+    overflow-x: hidden;
 }
-a:hover {
-    transition: 1s;
-    transform: scale(1.9);
+
+.carta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+    line-height: 3rem;
+    border: 10px double pink;
+    border-radius: 1rem;
+}
+
+.carta > article {
+    font-family: "Poetsen One", sans-serif;
+    color:aliceblue;
+    text-shadow: 1px 2px 2px black;
+    font-size: 24px;
+}
+
+p {
+    margin: 3rem;
+}
+
+.autor {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
